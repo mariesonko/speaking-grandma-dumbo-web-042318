@@ -1,5 +1,5 @@
  def speak_to_grandma method(phrase)
-   puts phrase 
+   puts phrase
    if phrase == "I LOVE YOU GRANDMA!"
      puts "I LOVE YOU TOO PUMPKIN!"
   elsif phrase == "Hi Nana, how are you?"
@@ -8,8 +8,9 @@
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "WHAT DID YOU EAT TODAY"
     puts "NO, NOT SINCE 1938!"
-  else phrase == "WHAT?"
+  elsif phrase == "WHAT?"
     puts "NO, NOT SINCE 1938!"
+  else puts "I LOVE YOU TOO PUMPKIN!"
   end
 speak_to_grandma
 # Whatever you say to grandma, she should respond with
