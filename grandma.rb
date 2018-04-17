@@ -8,7 +8,7 @@
     puts "HUH?! SPEAK UP, SONNY!"
   elsif phrase == "WHAT DID YOU EAT TODAY".upcase
     puts "NO, NOT SINCE 1938!"
-  else phrase == "WHAT?".upcase
+  elsif phrase == "WHAT?".upcase
     puts "NO, NOT SINCE 1938!"
-
   end
+speak_to_grandma
